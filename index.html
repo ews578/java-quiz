@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScipt Quiz</title>
+
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+    <div class ="top-score">View Top Scores</div>
+
+    <div class ="timer">Time: <span id = "timer-clock">0</span></div>
+
+    <div class="wrapper">
+        <div id="start-screen" class="start">
+        <h1>Shall We Play A Game?</h1>
+        <p>
+            Challenge yourself! Try to answer the following code-related questions before time runs out. 
+            Beware that incorrect answers will subtract score & time by 15 seconds!
+        </p>
+        <button id ="game-start">Begin</button>
+        </div>
+
+        <div id="question" class="hide">
+            <h2 id="question-title"></h2>
+            <div id="choice" class="choices"></div>
+        </div>
+
+        <div id="end-screen" class="hide">
+            <h2>Challenged Finished!</h2>
+            <p>Your final score is <span id="final-score"></span></p>
+            <p>
+                Enter Initials: <input type="text" id="intials" max="3"
+                <button id="submit">Submit</button>
+            </p>
+        </div>
+
+        <script src="./assets/script.js"></script>
+    </body>
+</html>
+
+
+    
+
+
+    
