@@ -1,0 +1,37 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(238, 233, 233);
+}
+
+
+.wrapper{
+Width: 500px;
+margin: 0 auto;
+padding: 20px;
+background-color: #1708e1;
+border-radius: 5px
+}
+
+.top-score {
+position: left;
+}
+
+.fin{
+    Width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1708e1;
+    border-radius: 5px
+}
+
+.submit{
+        display: block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #033636;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      
+}
